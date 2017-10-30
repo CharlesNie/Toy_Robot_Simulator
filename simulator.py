@@ -174,8 +174,6 @@ class ToyRobotSimulator(object):
 
 if __name__ == "__main__":
 
-
-    # uncomment to try some more here
     # create tables using parameters
     table_params = [{'name': 'table1', 'dx': 5, 'dy': 5, 'rule': None},
                         {'name': 'table2', 'dx': 10, 'dy': 10, 'rule': None},
