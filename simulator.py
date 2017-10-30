@@ -10,7 +10,7 @@ class ToyRobotSimulator(object):
     """
     tables = {} # store tables in dictionary e.g. {'table1': table1}
     robots = {} # store robots in dictionary e.g. {'robot1': robot1}
-    robot_on_table = {}   # store robots in tables e.g. {table1: [robot1, robot2]}
+    robot_on_table = {}   # store robots in tables e.g. {robot1: table1, robot2: table2}
     actions = ['PLACE', 'MOVE', 'LEFT', 'RIGHT', 'REPORT', 'END']
 
     def __init__(self, name):
